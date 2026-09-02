@@ -16,13 +16,13 @@
 #     for j in range(i):
 #         print(chr(97+j),end=" ")
 #     print(" ")
-s="Hello World!! 1234"
-alp=0
-let=0
-for i in s:
-    if(i.isalpha() ):
-        alp+=1
-    elif( i.isdigit()):
-        let+=1
-print(let)
-print(alp)
+# s="Hello World!! 1234"
+# alp=0
+# let=0
+# for i in s:
+#     if(i.isalpha() ):
+#         alp+=1
+#     elif( i.isdigit()):
+#         let+=1
+# print(let)
+# print(alp)
