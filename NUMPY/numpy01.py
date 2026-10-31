@@ -98,3 +98,33 @@ import numpy as np
 # print(arr)
 # arr = np.arange(1, 11)
 # print(arr)
+# print(len(arr))
+
+# datatypes in numpy(dtype)
+# print(np.array([1,2,3,4]).dtype)
+# print(np.array([1.0,2.3,3,4]).dtype)
+
+# x=np.array([1,2,3],dtype=float)
+# print(x)
+
+# y=np.array([1.7,2.9]).astype(int)
+# print(y)
+
+# print(np.array([1,5,6]).astype(bool))
+
+# m=np.array([[10,20,30],[40,50,60],[70,80,90]])
+# print(m[0,-1])
+# print(m[0,2])
+# print(m[-1,-1])
+# print(m[1,2])
+
+# x=np.arange(12)
+# print(x.reshape(3,4))
+# print(x.reshape(2,-1).shape)
+# print(x.reshape(3,4).flatten())
+# print(x.reshape(3,4).T.shape)
+# try:
+#     x.reshape(5,3)
+# except ValueError as e:
+#     print(e)
+
