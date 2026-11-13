@@ -128,3 +128,35 @@ import numpy as np
 # except ValueError as e:
 #     print(e)
 
+# x=np.array([10,20,30,40,50])
+# # fancy indexing
+
+# A = np.array([
+#     [1, 2],
+#     [3, 4]
+# ])
+# B = np.array([
+#     [5, 6],
+#     [7, 8]
+# ])
+# result = A * B
+# print(result)   
+
+# scores= np.array([72,85,90,95,100])
+# print("sum:", np.sum(scores))
+# print("mean:", np.mean(scores))
+# print("median:", np.median(scores))
+# print("minimum:", np.min(scores))
+# print("maximum:", np.max(scores))
+# print("standard deviation:", np.std(scores))
+# print("variance:", np.var(scores))
+# print("percentile 25:", np.percentile(scores, 25))
+
+
+a= np.array([30,10,20,10,40,20])
+print("sorted:",np.sort(a))
+print("sort indices:", np.argsort(a))
+print("unique:", np.unique(a))
+print("unique with count:", np.unique(a, return_counts= True))
+print("where:", np.where(a>=25, "high", "low"))
+# print("membership", np.isin(a,[10,40]))

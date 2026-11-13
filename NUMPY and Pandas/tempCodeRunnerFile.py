@@ -1,0 +1,5 @@
+a= np.array([30,10,20,10,40,20])
+# print()
+# print()
+# print()
+# print()
